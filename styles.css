@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+}
+.card {
+  width: 20%;
+  min-width: 260px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0.5);
+}
+img {
+  height: 200px;
+  width: 100%;
+}
