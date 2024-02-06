@@ -3,6 +3,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .container {
   display: flex;
@@ -31,13 +32,32 @@ form input {
 button {
   background-color: rgb(0, 127, 0);
 }
+#showMore {
+  background-color: #008cba;
+  border: non;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: none;
+}
 .card {
   width: 20%;
+  position: relative;
   min-width: 260px;
   border-radius: 6px;
   overflow: hidden;
   background-color: white;
   box-shadow: 0 0 5px rgba(0, 0, 0.3);
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px 5px;
 }
 .card:hover {
   background-color: rgba(0, 0, 0, 0.1);
