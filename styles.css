@@ -30,7 +30,7 @@ form input {
   max-width: 400px;
 }
 button {
-  background-color: rgb(0, 127, 0);
+  background-color: #008cba;
   color: white;
 }
 #showMore {
